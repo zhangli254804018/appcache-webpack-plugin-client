@@ -20,6 +20,29 @@ module.exports = {
 }
 ```
 
+```
+CACHE MANIFEST
+# f0bec20217585fbf6cf2
+
+CACHE:
+../dist/0.js
+../dist/0.min.js
+../dist/index.css
+../dist/index.js
+../dist/index.min.js
+../dist/vendor.js
+../dist/vendor.min.js
+
+FALLBACK:
+index.html
+error.html
+
+SETTINGS:
+prefer-online
+
+
+```
+
 Arguments:
 
 * `cache`: An array of additional assets to cache.
