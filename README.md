@@ -8,14 +8,14 @@ var AppCachePlugin = require('appcache-webpack-plugin-client');
 
 module.exports = {
   plugins: [
-    new AppCachePlugin({
-      cache: ['../dist','../assets'], //支持文件夾目錄等索引 如壓縮../dist文件夾下目錄
-      network: null,  // No network access allowed!
-      fallback: ['failwhale.jpg'],
-      settings: ['prefer-online'],
-      exclude: ['file.txt', /.*\.js$/],  // Exclude file.txt and all .js files
-      output: 'my-manifest.appcache'
-    })
+     new AppCachePlugin({
+          cache: ['../dist', '../assets/img'],
+          network: null, // No network access allowed!
+          fallback: ['index.html', 'error.html'],
+          settings: ['prefer-online'],
+          exclude: [/.*$/], // Exclude file.txt and all .js files
+          output: '../cache/manifest.appcache'
+      })
   ]
 }
 ```
