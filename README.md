@@ -28,11 +28,7 @@ CACHE:
 ../dist/0.js
 ../dist/0.min.js
 ../dist/1.js
-dist/imgdist/img/culb_bg.png
-../dist/0.js
-../dist/0.min.js
-../dist/1.js
-dist/imgdist/img/culb_bg.png
+../dist/img/culb_bg.png
 ../dist/index.css
 ../dist/index.js
 ../dist/index.min.js
@@ -48,6 +44,7 @@ dist/imgdist/img/culb_bg.png
 ../assets/img/culb_tab.png
 ../assets/img/load.gif
 ../assets/img/loading.gif
+../assets/img/svg/culb_dot.png
 
 FALLBACK:
 index.html
@@ -55,6 +52,9 @@ error.html
 
 SETTINGS:
 prefer-online
+
+
+
 
 
 
