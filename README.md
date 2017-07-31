@@ -9,7 +9,7 @@ var AppCachePlugin = require('appcache-webpack-plugin-client');
 module.exports = {
   plugins: [
     new AppCachePlugin({
-      cache: ['someOtherAsset.jpg'], //支持文件夾目錄等索引 如壓縮../dist文件夾下目錄
+      cache: ['../dist','../assets'], //支持文件夾目錄等索引 如壓縮../dist文件夾下目錄
       network: null,  // No network access allowed!
       fallback: ['failwhale.jpg'],
       settings: ['prefer-online'],
