@@ -22,16 +22,32 @@ module.exports = {
 
 ```
 CACHE MANIFEST
-# f0bec20217585fbf6cf2
+# a385df8c0b9e88367403
 
 CACHE:
 ../dist/0.js
 ../dist/0.min.js
+../dist/1.js
+dist/imgdist/img/culb_bg.png
+../dist/0.js
+../dist/0.min.js
+../dist/1.js
+dist/imgdist/img/culb_bg.png
 ../dist/index.css
 ../dist/index.js
 ../dist/index.min.js
 ../dist/vendor.js
 ../dist/vendor.min.js
+../assets/img/culb_bg.jpg
+../assets/img/culb_bg.png
+../assets/img/culb_del.png
+../assets/img/culb_dot.png
+../assets/img/culb_member.png
+../assets/img/culb_nav_active.png
+../assets/img/culb_product.png
+../assets/img/culb_tab.png
+../assets/img/load.gif
+../assets/img/loading.gif
 
 FALLBACK:
 index.html
@@ -39,6 +55,7 @@ error.html
 
 SETTINGS:
 prefer-online
+
 
 
 ```
