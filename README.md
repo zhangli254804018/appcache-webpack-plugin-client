@@ -4,7 +4,7 @@
 
 ```javascript
 
-var AppCachePlugin = require('appcache-webpack-plugin');
+var AppCachePlugin = require('appcache-webpack-plugin-client');
 
 module.exports = {
   plugins: [
