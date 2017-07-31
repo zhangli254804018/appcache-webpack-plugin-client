@@ -73,4 +73,6 @@ that match any of these patterns will be excluded from the manifest.
 
 ## License
 
+## Update
+* `fixed` Fixed some bug errors about empty files
 [MIT](http://www.opensource.org/licenses/mit-license.php)
