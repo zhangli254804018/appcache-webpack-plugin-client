@@ -1,6 +1,6 @@
 {
     "name": "appcache-webpack-plugin-client",
-    "version": "2.0.0",
+    "version": "2.0.1",
     "description": "Generate an HTML5 Application Cache for a Webpack build",
     "main": "./lib/index.js",
     "scripts": {
