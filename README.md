@@ -1,4 +1,4 @@
-# Application Cache plugin for Webpack3
+# Application Cache plugin for Webpack3/4
 
 ## Usage
 
