@@ -15,7 +15,7 @@ module.exports = {
       settings: ['prefer-online'],
       exclude: [/.*$/], // Exclude file.txt and all .js files
       output: '../cache/manifest.appcache',
-      outpath:'../', // Exclude file.txt and all .js files
+      outpath:'../', // Relative path
       excludePath:''  // Remove matching file url
     })
   ]
@@ -72,7 +72,8 @@ Arguments:
 * `exclude`: An array of strings or regex patterns. Assets in the compilation
 that match any of these patterns will be excluded from the manifest.
 * `output`: The filename to write the appcache to
-
+* `outpath`: Relative path 
+* `excludePath`: Remove file path
 ## License
 
 ## Update
