@@ -15,7 +15,7 @@ module.exports = {
       settings: ['prefer-online'],
       exclude: [/.*$/], // Exclude file.txt and all .js files
       output: '../cache/manifest.appcache',
-      outpath:'../', // Relative path
+      outpath:'', // Relative path
       excludePath:''  // Remove matching file url
     })
   ]
