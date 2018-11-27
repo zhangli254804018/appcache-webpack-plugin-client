@@ -8,14 +8,16 @@ var AppCachePlugin = require('appcache-webpack-plugin-client');
 
 module.exports = {
   plugins: [
-     new AppCachePlugin({
-          cache: ['../dist', '../assets/img'],
-          network: null, // No network access allowed!
-          fallback: ['index.html', 'error.html'],
-          settings: ['prefer-online'],
-          exclude: [/.*$/], // Exclude file.txt and all .js files
-          output: '../cache/manifest.appcache'
-      })
+      new AppCachePlugin({
+      cache: ['../dist'],
+      network: null, // No network access allowed!
+      fallback: ['index.html', 'error.html'],
+      settings: ['prefer-online'],
+      exclude: [/.*$/], // Exclude file.txt and all .js files
+      output: '../cache/manifest.appcache',
+      outpath:'../', // Exclude file.txt and all .js files
+      excludePath:''  // Remove matching file url
+    })
   ]
 }
 ```
